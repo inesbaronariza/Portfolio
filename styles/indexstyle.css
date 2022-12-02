@@ -1,0 +1,293 @@
+header {
+    position: fixed;
+    width: 100%;
+    background-image: url(../images/backgroundheader.jpg);
+    height: 80px;
+}
+
+header section {
+    height: 80px;
+    width: 90%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F8F7F9;
+}
+
+
+
+.cajahome {
+    background-image: url(../images/backgroundhome.jpg);
+    display: flex;
+    padding-top: 235px;
+    padding-bottom: 160px;
+    display: flex;
+}
+
+
+.cajahome div {
+    width: 626px;
+    height: 297px;
+    text-align: center;
+    font-size: 64px;
+    border: 1px solid #F8F7F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 34px;
+    color: #F8F7F9;
+}
+
+#nombre {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+#designer {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+}
+
+.apartados {
+    font-size: 40px;
+    padding-top: 62px;
+    padding-left: 84px;
+
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 88%;
+    padding: 0;
+    margin: 0 auto 0 auto;
+}
+
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1440px;
+    padding: 0px;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.work img {
+    width: 50%;
+    height: 50%;
+}
+
+.work div {
+    width: 524px;
+
+
+}
+
+.work h3 {
+    font-size: 36px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.work p {
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.work a {
+    font-size: 24px;
+    color: black;
+    line-height: normal;
+    text-decoration: none;
+}
+.button1 a{
+    background-color: #3582AA;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    color: #F8F7F9;
+    
+}
+
+
+    
+
+
+.button2 a{
+    background-color: #3582AA;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    color: #F8F7F9;
+    width: 116px;
+    
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 40px;
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1440px;
+    padding-top: 30px;
+}
+
+.sobremi img {
+    width: 50%;
+    height: 50%;
+
+}
+
+.sobremi div {
+    width: 88%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.sobremi p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 88%;
+    max-width: 1440px;
+    padding-top: 30px;
+    padding-bottom:50px;
+}
+
+.case {
+
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.case div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.articulo h3 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.articulo img {
+    width: 90%;
+
+}
+
+.articulo a {
+    text-decoration: none;
+    color: #F8F7F9;
+    font-weight:bold;
+}
+footer{
+    width: 100%;
+    height: 80px;
+  
+    
+}
+
+footer section {
+    height: 80px;
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineaazul{
+    
+    border-top: 1px solid #456699;
+    height: 2px;
+   
+    padding: 0;
+    margin: 0 auto 0 auto;
+}
+main {
+    width: 100%;
+    max-width: 1440px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.ojo {
+    display: none;
+
+}
+.button3 a{
+    display: none;
+}
+
+
+@media(max-width:600px){
+    body{
+        background-color: #456699;
+    }
+header{
+    display: none;
+}
+
+main{
+    display: none;
+}
+footer{
+    display:none;
+}
+.ojo{
+    font-size: 44px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    
+}
+.button3 a{
+    background-color: #3582AA;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    color: #F8F7F9;
+    width: 80px;
+    text-decoration: none;
+    display: flex;
+    margin: auto;
+    
+   
+    
+}
+}
